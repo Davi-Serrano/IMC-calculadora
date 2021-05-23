@@ -1,0 +1,71 @@
+html.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    
+    
+}
+
+.Title{
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid blue;
+   
+}
+h1{
+    color: blue
+}
+.box3{
+    width: 310px;
+    height: 100px;
+    padding-left: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px ;
+}
+#Name, #Weight, #Height{
+    border-radius: 5px;
+}
+button {
+    color:blue;
+    background-color: black;
+    margin-top: 15px;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+}
+button:hover{
+    transform: translateY(-2px);
+}
+footer{
+    text-align: center;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 110px;
+}
+@media  screen and (min-width: 801px) {
+        body{
+            background-color: blue;
+        }
+
+    #container{ 
+                
+                margin: auto;
+                height: 90vh;
+                width: 500px;
+                margin-top: 2em;
+    }
+
+}
+
+
